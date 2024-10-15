@@ -1,50 +1,39 @@
-# Welcome to your Expo app 👋
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+# Pannellum 360° Viewer Mobile App
 
-## Get started
+## Overview
 
-1. Install dependencies
+The **Pannellum 360° Viewer Mobile App** is a demonstration project built using **React Native** and **Expo** that allows users to view immersive 360-degree images on mobile devices, both online and offline. Utilizing the powerful **Pannellum** viewer, this project showcases how users can navigate panoramic content seamlessly, even when disconnected from the internet.
 
-   ```bash
-   npm install
-   ```
+This project highlights a dynamic use of web technologies within native apps by leveraging **WebView** to render a high-performance 360° viewer. It also integrates **Expo's FileSystem API** to download and cache 360-degree images for offline viewing, making it especially useful in scenarios where consistent internet access is unavailable.
 
-2. Start the app
+## Features
 
-   ```bash
-    npx expo start
-   ```
+- **360° Panoramic Viewer**: Users can experience 360-degree images in high resolution with full pan and zoom controls.
+- **Offline Support**: The app can download 360-degree images and store them locally for offline viewing, ensuring an uninterrupted experience even in areas without internet.
+- **Dynamic Image Loading**: Users can load different images by selecting them from the app interface, offering flexibility to view multiple images during a session.
+- **Smooth Navigation**: The app uses **Pannellum**, a lightweight, web-based panorama viewer, ensuring smooth transitions and interactions.
+- **Cross-Platform**: Built using **React Native** and **Expo**, the app runs on both Android and iOS devices with consistent behavior.
 
-In the output, you'll find options to open the app in a
+## How It Benefits Users
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- **Interactive Exploration**: Provides an immersive way to explore 360-degree environments directly from a mobile device.
+- **Offline Accessibility**: Ensures users can view images regardless of internet connectivity, useful for travelers, photographers, and professionals who may work in remote areas.
+- **Seamless Experience**: Easy-to-use interface with options to load different images, enabling users to switch between panoramic views effortlessly.
+- **Learning and Demonstration**: Perfect for developers looking to implement 360-degree viewers in mobile apps, this project serves as a reference for integrating Pannellum with React Native and WebView.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Takeaways for Users
 
-## Get a fresh project
+- Learn how to implement 360-degree panoramic viewers using **Pannellum** in a React Native mobile app.
+- Understand how to manage offline image storage using **Expo FileSystem**.
+- Experience how **WebView** can be utilized to embed web-based viewers within native apps.
+- Explore the smooth and responsive navigation of 360° images on mobile devices.
+- Discover the possibilities of cross-platform mobile development using **React Native** and **Expo**.
 
-When you're ready, run:
+## Resources
 
-```bash
-npm run reset-project
-```
+- Detailed guide on using **Pannellum Viewer** on mobile: [Theta360 Community Article](https://community.theta360.guide/t/pannellum-viewer-use-on-mobile-demonstration-project/9995)
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Feel free to clone this project and modify it to fit your needs!
